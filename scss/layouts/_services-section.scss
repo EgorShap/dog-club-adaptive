@@ -1,0 +1,50 @@
+.services-section {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    @media screen and (min-width: $bp-desktop) {
+      flex-direction: row;
+    }
+  }
+
+  &__card-list {
+    display: flex;
+    // align-items: center;
+    // margin: 0 auto;
+    justify-content: center;
+    // flex-shrink: 2;
+    gap: 24px;
+  }
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  &__link a {
+    display: flex;
+    font-size: 18px;
+    line-height: 1.3;
+    gap: 8px;
+    letter-spacing: 0.9px;
+  }
+
+  &__link-text {
+    margin-bottom: 0;
+    color: var(--primary-color-normal);
+
+    &:hover {
+      color: var(--primary-color-active);
+    }
+  }
+}
+
+/* margin-bottom: 96px; */
+// .services
+
+// .services
+
+// .services
+// .services-link-text

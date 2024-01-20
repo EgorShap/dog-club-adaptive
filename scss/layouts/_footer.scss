@@ -1,0 +1,79 @@
+.footer {
+  padding: 24px 0;
+  background-color: var(--footer-background);
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width: $bp-desktop) {
+      // display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 20px;
+    }
+  }
+
+  &__logo {
+    // justify-content: center;
+    margin: 0 auto;
+    @media screen and (min-width: $bp-desktop) {
+      margin: 0;
+    }
+  }
+  &__socials {
+    display: flex;
+    gap: 8px;
+    margin-top: 24px;
+    justify-content: center;
+    @media screen and (min-width: $bp-desktop) {
+      justify-content: start;
+    }
+  }
+
+  &__nav,
+  &__address {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+
+    @media screen and (min-width: $bp-desktop) {
+      text-align: left;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-basis: 50%;
+    }
+  }
+
+  &__image {
+    max-width: 30%;
+    margin: 0 auto;
+    @media screen and (min-width: $bp-desktop) {
+      max-width: 100%;
+    }
+  }
+
+  &__menu li {
+    font-size: 16px;
+    margin-bottom: 16px;
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    @media screen and (min-width: $bp-desktop) {
+      margin-bottom: 24px;
+    }
+  }
+
+  &__form {
+    padding: 24px 0;
+    @media screen and (min-width: $bp-desktop) {
+      padding: 0;
+    }
+  }
+
+  &-form__input {
+    margin-bottom: 24px;
+  }
+}

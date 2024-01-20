@@ -1,0 +1,29 @@
+.input {
+  position: relative;
+
+  &__control {
+    padding: 13px 40px 13px 80px;
+    max-width: 650px;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid var(--primary-color-normal);
+    border-radius: 8px;
+
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 18px;
+    }
+
+    &::placeholder {
+      color: var(--primary-color-normal);
+    }
+
+    &:focus::placeholder {
+      color: var(--black);
+    }
+  }
+}
+
+.checkbox-label {
+  font-size: 12px;
+  color: var(--gray);
+}

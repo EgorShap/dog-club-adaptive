@@ -1,0 +1,21 @@
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.is-scroll-disabled {
+  overflow: hidden;
+}
+
+.limited {
+  max-width: 605px;
+  margin: 0 auto;
+}
+
+.centered {
+  text-align: center;
+}

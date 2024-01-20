@@ -1,0 +1,23 @@
+#user-name,
+#user-phone,
+#pet-name,
+#user-email {
+  background-position: 40px 10px;
+  background-repeat: no-repeat;
+}
+
+#user-name {
+  background-image: url(../../img/placeholder-icons/placeholder-username.svg);
+}
+
+#user-phone {
+  background-image: url(../../img/placeholder-icons/placeholder-phone.svg);
+}
+
+#pet-name {
+  background-image: url(../../img/placeholder-icons/placeholder-pet-nickname.svg);
+}
+
+#user-email {
+  background-image: url(../../img/placeholder-icons/placeholder-mail.svg);
+}

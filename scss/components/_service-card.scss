@@ -1,0 +1,24 @@
+.card {
+  &__content {
+    padding: 48px 72px;
+    background: linear-gradient(180deg, #fff 0%, #fffbf4 100%);
+    border: 1px solid #f9f9ff;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(5, 5, 3, 0.25);
+    height: 240px;
+    width: 240px;
+    text-align: center;
+  }
+
+  &__image {
+    height: 96px;
+    width: 96px;
+  }
+
+  &__title {
+    margin-top: 24px;
+    color: var(--primary-color-normal);
+    font-size: 22px;
+    font-weight: 600;
+  }
+}
