@@ -7,7 +7,6 @@
     flex-direction: column;
 
     @media screen and (min-width: $bp-desktop) {
-      // display: flex;
       flex-direction: row;
       justify-content: space-between;
       gap: 20px;
@@ -15,7 +14,6 @@
   }
 
   &__logo {
-    // justify-content: center;
     margin: 0 auto;
     @media screen and (min-width: $bp-desktop) {
       margin: 0;
@@ -75,5 +73,11 @@
 
   &-form__input {
     margin-bottom: 24px;
+  }
+
+  &__copyright {
+    text-align: center;
+    font-size: 16px;
+    color: var(--gray);
   }
 }

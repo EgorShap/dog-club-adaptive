@@ -4,7 +4,6 @@
   &__container {
     display: flex;
     align-items: flex-start;
-    // justify-content: center;
     justify-content: space-between;
     gap: 45px;
 
@@ -18,7 +17,6 @@
 
   &__content {
     display: flex;
-    // justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
@@ -75,24 +73,11 @@
       display: block;
       border-bottom-right-radius: 50%;
       border-bottom-left-radius: 55%;
-      // border-top-right-radius: 60%;
       width: 30%;
 
       background-image: url(/img/hero-section/dog-hero-section-bg.svg);
       background-repeat: no-repeat;
       background-size: contain;
-
-      // TODO: Remove section
-      // max-width: 400px;
-      // background: var(--primary-color-normal);
-      // border-top-left-radius: 25%;
-      // clip-path: path(
-      //   'M254.97 0.0384397C325.849 -1.81149 376.333 63.4758 423.116 116.86C465.875 165.653 500.595 220.553 504.987 285.337C509.708 354.969 499.121 431.376 447.624 478.371C397.458 524.152 322.749 516.713 254.97 513.499C191.651 510.497 126.986 503.257 79.7229 460.93C30.0027 416.402 -2.90794 352.082 0.203089 285.337C3.20707 220.889 52.4254 173.496 95.3615 125.414C142.223 72.9368 184.715 1.87207 254.97 0.0384397Z'
-      // );
-      // z-index: 1;
-      // content: url(/img/dog-hero-section-bg.svg);
-
-      // background-position: 0;
     }
   }
 
@@ -108,6 +93,19 @@
         right: 40px;
         content: url(../../img/hero-section/mobile-dog-right.png);
       }
+    }
+  }
+
+  &__button-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    gap: 24px;
+  }
+
+  &__modal-button {
+    @media screen and (min-width: $bp-desktop) {
+      display: none;
     }
   }
 }
